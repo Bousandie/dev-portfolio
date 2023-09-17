@@ -18,7 +18,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #142d5f;
+  border-color: #e5e7eb;
   /* 2 */
 }
 
@@ -26,7 +26,6 @@
 ::after {
   --tw-content: '';
 }
-.scroll-smooth
 
 /*
 1. Use a consistent sensible line-height in all browsers.
@@ -415,9 +414,8 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 
 img,
 video {
-  width: 650px;
-  height: 650px;
-  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
@@ -3119,10 +3117,7 @@ select{
 
 .border-\[\#1C2134\]{
   --tw-border-opacity: 1;
-  background: #aa4b6b;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  border-color: rgb(28 33 52 / var(--tw-border-opacity));
 }
 
 .border-\[\#3A3E4E\]{
@@ -3229,10 +3224,7 @@ background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+
 
 .bg-\[\#050F25\]{
   --tw-bg-opacity: 1;
-  background: #aa4b6b;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background-color: rgb(5 15 37 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#0A1429\]{
@@ -3342,10 +3334,8 @@ background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b); /* W3C, IE 10+
 
 .bg-interface-600{
   --tw-bg-opacity: 1;
-  background: #AA95C7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
+  background-color: rgb(9 21 48 / var(--tw-bg-opacity));
+}
 
 .bg-new-500{
   --tw-bg-opacity: 1;
@@ -5187,12 +5177,6 @@ body {
 .blog-title.title-light a:hover,
 .blog-title a:hover {
   background-size: 100% 1px;
-}
-.occup{
-  color: #ffffff;
-  margin: 6px;
-  padding: 4px;
-
 }
 
 /* Swiper Pagination */
